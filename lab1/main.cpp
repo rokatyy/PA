@@ -89,9 +89,9 @@ int main() {
     int n =N;
     double start;
     double end;
-    double A[] = {0.00001, 0.0001, 0.001, 0.01, 0.1, 1, 10};
-    double B[] = {0.0001, 0.001, 0.01, 0.1, 1, 10, 100};
-    for (int i=0;i < 6; i++){
+    double A[7] = {0.00001, 0.0001, 0.001, 0.01, 0.1, 1, 10};
+    double B[7] = {0.0001, 0.001, 0.01, 0.1, 1, 10, 100};
+    for (int i=0;i < 7; i++){
         double a = A[i];
         double b = B[i];
         printf("A=%f B=%f N=%d THREADS=%d \n", a, b, n,  NUM_THREADS);
